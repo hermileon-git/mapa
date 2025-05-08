@@ -1,0 +1,2481 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_47381dbbca408ebeae4058e71df9c673 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_47381dbbca408ebeae4058e71df9c673" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_47381dbbca408ebeae4058e71df9c673 = L.map(
+                "map_47381dbbca408ebeae4058e71df9c673",
+                {
+                    center: [5.761264272795276, -75.06461254771654],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_71b3aaef76bbbe9f5009303c2574bfcb = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+            var marker_7800a1e85497e64b02a3d2edcdc40c48 = L.marker(
+                [6.226719, -77.406718],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_34b4f49fd7fad40182e0c0d8817114db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f47558e09f380aee3f5a13097dc7da2a = $(`<div id="html_f47558e09f380aee3f5a13097dc7da2a" style="width: 100.0%; height: 100.0%;">Antares construcciones e inmobiliaria SAS</div>`)[0];
+            popup_34b4f49fd7fad40182e0c0d8817114db.setContent(html_f47558e09f380aee3f5a13097dc7da2a);
+        
+
+        marker_7800a1e85497e64b02a3d2edcdc40c48.bindPopup(popup_34b4f49fd7fad40182e0c0d8817114db)
+        ;
+
+        
+    
+    
+            var marker_e40ced5d7e24446556d613c402ae6862 = L.marker(
+                [7.12444, -73.119582],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_580df21a9e636ae2b5d7fe0723876985 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4558a8cad922158e1a0e5013fecd765 = $(`<div id="html_d4558a8cad922158e1a0e5013fecd765" style="width: 100.0%; height: 100.0%;">Fundación Entre Dos Tierras</div>`)[0];
+            popup_580df21a9e636ae2b5d7fe0723876985.setContent(html_d4558a8cad922158e1a0e5013fecd765);
+        
+
+        marker_e40ced5d7e24446556d613c402ae6862.bindPopup(popup_580df21a9e636ae2b5d7fe0723876985)
+        ;
+
+        
+    
+    
+            var marker_b9c94f19506119ff2775cda03b56b733 = L.marker(
+                [1.644563, -77.019722],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_6403b80562595119d85c6ae4ea5b2361 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bcc18669139c453392968226878a9552 = $(`<div id="html_bcc18669139c453392968226878a9552" style="width: 100.0%; height: 100.0%;">Lasso e hijos SAS</div>`)[0];
+            popup_6403b80562595119d85c6ae4ea5b2361.setContent(html_bcc18669139c453392968226878a9552);
+        
+
+        marker_b9c94f19506119ff2775cda03b56b733.bindPopup(popup_6403b80562595119d85c6ae4ea5b2361)
+        ;
+
+        
+    
+    
+            var marker_897a11e2e27f3560e2a9b53f2867cac0 = L.marker(
+                [6.993406, -73.050343],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_2ab54fd6ceeaa9c6364ddbc82619729e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ab5d6b73f499b46139e29d3c5d54892 = $(`<div id="html_4ab5d6b73f499b46139e29d3c5d54892" style="width: 100.0%; height: 100.0%;">Federación Agroalimentaria y Agroambiental Campesina. MERCORED</div>`)[0];
+            popup_2ab54fd6ceeaa9c6364ddbc82619729e.setContent(html_4ab5d6b73f499b46139e29d3c5d54892);
+        
+
+        marker_897a11e2e27f3560e2a9b53f2867cac0.bindPopup(popup_2ab54fd6ceeaa9c6364ddbc82619729e)
+        ;
+
+        
+    
+    
+            var marker_6d88d4f6777505a34c03422ce06b734c = L.marker(
+                [9.303464, -75.393935],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_e3876ad28ba9df3a4cdfa4d1df8b92df = L.popup({"maxWidth": "100%"});
+
+        
+            var html_35e1ea6cd31a4cd7c90b42051d8eaf33 = $(`<div id="html_35e1ea6cd31a4cd7c90b42051d8eaf33" style="width: 100.0%; height: 100.0%;">CORPORACIÓN INCUBADORA DE EMPRESAS DE SUCRE</div>`)[0];
+            popup_e3876ad28ba9df3a4cdfa4d1df8b92df.setContent(html_35e1ea6cd31a4cd7c90b42051d8eaf33);
+        
+
+        marker_6d88d4f6777505a34c03422ce06b734c.bindPopup(popup_e3876ad28ba9df3a4cdfa4d1df8b92df)
+        ;
+
+        
+    
+    
+            var marker_da82b00968d4d2f7729de177a4a6e524 = L.marker(
+                [1.142522, -76.664638],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_f2005adc60e27fa11a2b1c18f0883143 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a48950db828217ffbd524e08b9189c7 = $(`<div id="html_5a48950db828217ffbd524e08b9189c7" style="width: 100.0%; height: 100.0%;">POSADA KAUAI SAS ZOMAC BIC</div>`)[0];
+            popup_f2005adc60e27fa11a2b1c18f0883143.setContent(html_5a48950db828217ffbd524e08b9189c7);
+        
+
+        marker_da82b00968d4d2f7729de177a4a6e524.bindPopup(popup_f2005adc60e27fa11a2b1c18f0883143)
+        ;
+
+        
+    
+    
+            var marker_33924609e224b0fc914f7ad36b6a415b = L.marker(
+                [6.220107, -73.814967],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_6d0b2585024aac8ee5576aaf066ecd51 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db08096d107e290c6dd17da6a92dd8c1 = $(`<div id="html_db08096d107e290c6dd17da6a92dd8c1" style="width: 100.0%; height: 100.0%;">XUÉ CHOCOLATE ARTESANAL SAS</div>`)[0];
+            popup_6d0b2585024aac8ee5576aaf066ecd51.setContent(html_db08096d107e290c6dd17da6a92dd8c1);
+        
+
+        marker_33924609e224b0fc914f7ad36b6a415b.bindPopup(popup_6d0b2585024aac8ee5576aaf066ecd51)
+        ;
+
+        
+    
+    
+            var marker_1bb9a6584d877d605b52f912a0469c48 = L.marker(
+                [0.500473, -76.508335],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_3d0161c76c243939e0886d0e8afe1017 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c3f43a404f8c68539d6c039febfc201 = $(`<div id="html_6c3f43a404f8c68539d6c039febfc201" style="width: 100.0%; height: 100.0%;">SHUSKA SAS ZOMAC BIC</div>`)[0];
+            popup_3d0161c76c243939e0886d0e8afe1017.setContent(html_6c3f43a404f8c68539d6c039febfc201);
+        
+
+        marker_1bb9a6584d877d605b52f912a0469c48.bindPopup(popup_3d0161c76c243939e0886d0e8afe1017)
+        ;
+
+        
+    
+    
+            var marker_591ddc2e36adb86c02711d1d9424a9d6 = L.marker(
+                [7.911265, -72.501176],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_6e697196d01f67461e60ff56cfcee293 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1bc7a9348212121ae522eb6e3fa7ace8 = $(`<div id="html_1bc7a9348212121ae522eb6e3fa7ace8" style="width: 100.0%; height: 100.0%;">ASOCIACION CAMARA JUNIOR DE COLOMBIA CAPITULO CUCUTA</div>`)[0];
+            popup_6e697196d01f67461e60ff56cfcee293.setContent(html_1bc7a9348212121ae522eb6e3fa7ace8);
+        
+
+        marker_591ddc2e36adb86c02711d1d9424a9d6.bindPopup(popup_6e697196d01f67461e60ff56cfcee293)
+        ;
+
+        
+    
+    
+            var marker_329a6f13980c5587fff01fdd28a590cf = L.marker(
+                [3.529725, -76.302],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_c9e40dd0c253bed1a1711de003444e84 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce6f88650a9b29feec8ab2c8f0ca51af = $(`<div id="html_ce6f88650a9b29feec8ab2c8f0ca51af" style="width: 100.0%; height: 100.0%;">Fundación de protección infantil Rotaria</div>`)[0];
+            popup_c9e40dd0c253bed1a1711de003444e84.setContent(html_ce6f88650a9b29feec8ab2c8f0ca51af);
+        
+
+        marker_329a6f13980c5587fff01fdd28a590cf.bindPopup(popup_c9e40dd0c253bed1a1711de003444e84)
+        ;
+
+        
+    
+    
+            var marker_a0bc2cd15277c114cef0edb520811190 = L.marker(
+                [8.587649, -73.084571],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_51eb410bd9f99336c6a2db6fcc4b348f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d73c377249e85fad92d5c28dc78b0e80 = $(`<div id="html_d73c377249e85fad92d5c28dc78b0e80" style="width: 100.0%; height: 100.0%;">ASOCIACION DE PISCICULTORES DEL MUNICIPIO DE EL TARRA Y LA REGION DEL CATATUMBO.</div>`)[0];
+            popup_51eb410bd9f99336c6a2db6fcc4b348f.setContent(html_d73c377249e85fad92d5c28dc78b0e80);
+        
+
+        marker_a0bc2cd15277c114cef0edb520811190.bindPopup(popup_51eb410bd9f99336c6a2db6fcc4b348f)
+        ;
+
+        
+    
+    
+            var marker_4247e0b877139904e8af0af2229092f0 = L.marker(
+                [5.687363, -76.661127],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_82c581995654a7f8453b252f32415175 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46588955ffe418ecc89f721172ca6427 = $(`<div id="html_46588955ffe418ecc89f721172ca6427" style="width: 100.0%; height: 100.0%;">Corporación educativa y cultural Motete</div>`)[0];
+            popup_82c581995654a7f8453b252f32415175.setContent(html_46588955ffe418ecc89f721172ca6427);
+        
+
+        marker_4247e0b877139904e8af0af2229092f0.bindPopup(popup_82c581995654a7f8453b252f32415175)
+        ;
+
+        
+    
+    
+            var marker_d619cad08cb565b9f1e31e95f5aca99b = L.marker(
+                [1.62712, -75.571395],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_e1dc980db9b0befa1865c2ccef5f0d9f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4a4c8c18cf6f6417b7560b9893b9b91 = $(`<div id="html_d4a4c8c18cf6f6417b7560b9893b9b91" style="width: 100.0%; height: 100.0%;">Amazonía Emprende</div>`)[0];
+            popup_e1dc980db9b0befa1865c2ccef5f0d9f.setContent(html_d4a4c8c18cf6f6417b7560b9893b9b91);
+        
+
+        marker_d619cad08cb565b9f1e31e95f5aca99b.bindPopup(popup_e1dc980db9b0befa1865c2ccef5f0d9f)
+        ;
+
+        
+    
+    
+            var marker_38ba46f80affea16d92440b82c612217 = L.marker(
+                [3.929935, -77.351497],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_82899c8a8a2c8ba3d497c5638dc1c92d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_25196e564127bef7265444ddfeac6d69 = $(`<div id="html_25196e564127bef7265444ddfeac6d69" style="width: 100.0%; height: 100.0%;">Huaitoto Foundation</div>`)[0];
+            popup_82899c8a8a2c8ba3d497c5638dc1c92d.setContent(html_25196e564127bef7265444ddfeac6d69);
+        
+
+        marker_38ba46f80affea16d92440b82c612217.bindPopup(popup_82899c8a8a2c8ba3d497c5638dc1c92d)
+        ;
+
+        
+    
+    
+            var marker_5d0d6984fd3a5e56750ad4b7ccd3294b = L.marker(
+                [5.744809, -73.004111],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_7146f2b980b97e2cbe7bb6b9ae388369 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b97fbf0042198675fe2637be416cf99 = $(`<div id="html_5b97fbf0042198675fe2637be416cf99" style="width: 100.0%; height: 100.0%;">Fundación Amahia</div>`)[0];
+            popup_7146f2b980b97e2cbe7bb6b9ae388369.setContent(html_5b97fbf0042198675fe2637be416cf99);
+        
+
+        marker_5d0d6984fd3a5e56750ad4b7ccd3294b.bindPopup(popup_7146f2b980b97e2cbe7bb6b9ae388369)
+        ;
+
+        
+    
+    
+            var marker_fc057d79363cb44d4024c8ad54fc3e3b = L.marker(
+                [5.681917, -76.647266],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_f3c3a3963b748d27d4f8d30030d14a1e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3bc04b746d1063cbe31aca03981b501 = $(`<div id="html_f3bc04b746d1063cbe31aca03981b501" style="width: 100.0%; height: 100.0%;">IA 4 DATA</div>`)[0];
+            popup_f3c3a3963b748d27d4f8d30030d14a1e.setContent(html_f3bc04b746d1063cbe31aca03981b501);
+        
+
+        marker_fc057d79363cb44d4024c8ad54fc3e3b.bindPopup(popup_f3c3a3963b748d27d4f8d30030d14a1e)
+        ;
+
+        
+    
+    
+            var marker_e89b463a71d736e1287efdbb149e2783 = L.marker(
+                [11.21002, -74.16438],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_98eb4e896ab1280fb42d68a4ca653aba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23472bb9b3aa1ec652afee7a83974b9e = $(`<div id="html_23472bb9b3aa1ec652afee7a83974b9e" style="width: 100.0%; height: 100.0%;">Caliu SAS</div>`)[0];
+            popup_98eb4e896ab1280fb42d68a4ca653aba.setContent(html_23472bb9b3aa1ec652afee7a83974b9e);
+        
+
+        marker_e89b463a71d736e1287efdbb149e2783.bindPopup(popup_98eb4e896ab1280fb42d68a4ca653aba)
+        ;
+
+        
+    
+    
+            var marker_af3e724cfd87a0128b9aede49cb715f6 = L.marker(
+                [7.116541, -73.116697],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_5f2c4ff2ad821cccea24883d87289332 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_203546659f343c6ca399c0444a2b9da3 = $(`<div id="html_203546659f343c6ca399c0444a2b9da3" style="width: 100.0%; height: 100.0%;">FCM SAFE S.A.S</div>`)[0];
+            popup_5f2c4ff2ad821cccea24883d87289332.setContent(html_203546659f343c6ca399c0444a2b9da3);
+        
+
+        marker_af3e724cfd87a0128b9aede49cb715f6.bindPopup(popup_5f2c4ff2ad821cccea24883d87289332)
+        ;
+
+        
+    
+    
+            var marker_02a584a78119f279717cc618aff2181a = L.marker(
+                [8.095368, -73.275135],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_0b8a230f4aa3bbea106e40cc0823366f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd16f722c1b11ea617cbab8af5329f3e = $(`<div id="html_bd16f722c1b11ea617cbab8af5329f3e" style="width: 100.0%; height: 100.0%;">ASOCIACION DE MUJERES UNIDAS POR UN CAMBIO</div>`)[0];
+            popup_0b8a230f4aa3bbea106e40cc0823366f.setContent(html_bd16f722c1b11ea617cbab8af5329f3e);
+        
+
+        marker_02a584a78119f279717cc618aff2181a.bindPopup(popup_0b8a230f4aa3bbea106e40cc0823366f)
+        ;
+
+        
+    
+    
+            var marker_c313aa37cc42049fd25d2521d717e789 = L.marker(
+                [3.442981, -76.544873],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_02b0406e636b990810995f5644af7e04 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_907ab0df561994c8b4ea86a97d575270 = $(`<div id="html_907ab0df561994c8b4ea86a97d575270" style="width: 100.0%; height: 100.0%;">Corporación Maria Perlaza</div>`)[0];
+            popup_02b0406e636b990810995f5644af7e04.setContent(html_907ab0df561994c8b4ea86a97d575270);
+        
+
+        marker_c313aa37cc42049fd25d2521d717e789.bindPopup(popup_02b0406e636b990810995f5644af7e04)
+        ;
+
+        
+    
+    
+            var marker_cf5a7e182633bfc746e429c77f3498f7 = L.marker(
+                [8.263992, -73.358882],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_bef6f2e33f9f96709a5bc1a36ca247fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f797299cf9951d42f125d4ee78b6c3c8 = $(`<div id="html_f797299cf9951d42f125d4ee78b6c3c8" style="width: 100.0%; height: 100.0%;">FEDERACION RED DE PRODUCTORES DEL CATATUMBO Y PROVINCIA DE OCAÑA Y SUR DEL CESAR</div>`)[0];
+            popup_bef6f2e33f9f96709a5bc1a36ca247fa.setContent(html_f797299cf9951d42f125d4ee78b6c3c8);
+        
+
+        marker_cf5a7e182633bfc746e429c77f3498f7.bindPopup(popup_bef6f2e33f9f96709a5bc1a36ca247fa)
+        ;
+
+        
+    
+    
+            var marker_97077df512cafd0eeb61542950b34c65 = L.marker(
+                [11.018783, -74.821419],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_0af86e4f03301692e3d7990a3ebd5734 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_970627d260f897e3fcd5e2e6a3131b5f = $(`<div id="html_970627d260f897e3fcd5e2e6a3131b5f" style="width: 100.0%; height: 100.0%;">Venezolanos en Barranquilla- VENEZUELAQUILLA</div>`)[0];
+            popup_0af86e4f03301692e3d7990a3ebd5734.setContent(html_970627d260f897e3fcd5e2e6a3131b5f);
+        
+
+        marker_97077df512cafd0eeb61542950b34c65.bindPopup(popup_0af86e4f03301692e3d7990a3ebd5734)
+        ;
+
+        
+    
+    
+            var marker_294ac5c28247b7c04494d3998463beb0 = L.marker(
+                [7.11295, -73.112352],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_b5ffcc08cfd4dfb6656b652d857c621b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6dc7e2c6f2f18fb3bdf096c9f7b10ca9 = $(`<div id="html_6dc7e2c6f2f18fb3bdf096c9f7b10ca9" style="width: 100.0%; height: 100.0%;">SURICATA LABS SAS BIC</div>`)[0];
+            popup_b5ffcc08cfd4dfb6656b652d857c621b.setContent(html_6dc7e2c6f2f18fb3bdf096c9f7b10ca9);
+        
+
+        marker_294ac5c28247b7c04494d3998463beb0.bindPopup(popup_b5ffcc08cfd4dfb6656b652d857c621b)
+        ;
+
+        
+    
+    
+            var marker_0ca1c5f61f1aae226f148de94a738ffd = L.marker(
+                [7.113049, -73.117777],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_66519b63f90c90d33d2b5d3ad3649c16 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c406e62ab241bfddf123bb2f83f0d4c3 = $(`<div id="html_c406e62ab241bfddf123bb2f83f0d4c3" style="width: 100.0%; height: 100.0%;">ASOCIACION CRISTIANA DE JOVENES ACJ- YMCA SANTANDER</div>`)[0];
+            popup_66519b63f90c90d33d2b5d3ad3649c16.setContent(html_c406e62ab241bfddf123bb2f83f0d4c3);
+        
+
+        marker_0ca1c5f61f1aae226f148de94a738ffd.bindPopup(popup_66519b63f90c90d33d2b5d3ad3649c16)
+        ;
+
+        
+    
+    
+            var marker_a4c9dd4c8f36692322e78c42808f20d1 = L.marker(
+                [7.136653, -73.110834],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_8d61435a96150bf3f450983f70f76bca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7eac1e1f6b91d64e61e3f76afecf0850 = $(`<div id="html_7eac1e1f6b91d64e61e3f76afecf0850" style="width: 100.0%; height: 100.0%;">FUNDACION PARA EL DESARROLLO PISCICOLA Y AGROINDUSTRIAL</div>`)[0];
+            popup_8d61435a96150bf3f450983f70f76bca.setContent(html_7eac1e1f6b91d64e61e3f76afecf0850);
+        
+
+        marker_a4c9dd4c8f36692322e78c42808f20d1.bindPopup(popup_8d61435a96150bf3f450983f70f76bca)
+        ;
+
+        
+    
+    
+            var marker_503b2bd9a4e3357ecc8048a8144aacaf = L.marker(
+                [3.558481, -76.556557],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_9eebdab8563b2e63fa0245c30a3d9686 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_138e9d666a835bdd4f81f3b4b81ffbd5 = $(`<div id="html_138e9d666a835bdd4f81f3b4b81ffbd5" style="width: 100.0%; height: 100.0%;">Fundación Cordapa</div>`)[0];
+            popup_9eebdab8563b2e63fa0245c30a3d9686.setContent(html_138e9d666a835bdd4f81f3b4b81ffbd5);
+        
+
+        marker_503b2bd9a4e3357ecc8048a8144aacaf.bindPopup(popup_9eebdab8563b2e63fa0245c30a3d9686)
+        ;
+
+        
+    
+    
+            var marker_5c7c11052faa59e90bf38a36364a6a61 = L.marker(
+                [5.694193, -76.660218],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_6c622c9e4518bf240a0f4e88f7b97fc4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_44f9827452fbdbf75e305aacba857674 = $(`<div id="html_44f9827452fbdbf75e305aacba857674" style="width: 100.0%; height: 100.0%;">EyG camisetas SAS</div>`)[0];
+            popup_6c622c9e4518bf240a0f4e88f7b97fc4.setContent(html_44f9827452fbdbf75e305aacba857674);
+        
+
+        marker_5c7c11052faa59e90bf38a36364a6a61.bindPopup(popup_6c622c9e4518bf240a0f4e88f7b97fc4)
+        ;
+
+        
+    
+    
+            var marker_77f9dcd437cdc5db7e4a261dde3c53df = L.marker(
+                [11.372445, -72.246764],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_f2a08ddbf11058a7476e634bdee8b580 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_32b5fbe754845edc82ee20ac7f975cae = $(`<div id="html_32b5fbe754845edc82ee20ac7f975cae" style="width: 100.0%; height: 100.0%;">FUNDACIÓN LUCIÉRNAGAS DE COLOMBIA</div>`)[0];
+            popup_f2a08ddbf11058a7476e634bdee8b580.setContent(html_32b5fbe754845edc82ee20ac7f975cae);
+        
+
+        marker_77f9dcd437cdc5db7e4a261dde3c53df.bindPopup(popup_f2a08ddbf11058a7476e634bdee8b580)
+        ;
+
+        
+    
+    
+            var marker_6b300cce84a0498e64ae49d560a2655c = L.marker(
+                [6.63961, -73.289572],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_3593440fb5ba8ddf2d4c7d1661cd0ad1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f1edfe7288332058dbd1a9c131fd5ed = $(`<div id="html_3f1edfe7288332058dbd1a9c131fd5ed" style="width: 100.0%; height: 100.0%;">ASOCIACION HOGAR SAN JOSE</div>`)[0];
+            popup_3593440fb5ba8ddf2d4c7d1661cd0ad1.setContent(html_3f1edfe7288332058dbd1a9c131fd5ed);
+        
+
+        marker_6b300cce84a0498e64ae49d560a2655c.bindPopup(popup_3593440fb5ba8ddf2d4c7d1661cd0ad1)
+        ;
+
+        
+    
+    
+            var marker_efdb2e87915b5d2750c2a0097222edfd = L.marker(
+                [3.440373, -76.542081],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_51a347a233d1c2725b4596eef81d294d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c013663f10c01773b0b5e48198cdb853 = $(`<div id="html_c013663f10c01773b0b5e48198cdb853" style="width: 100.0%; height: 100.0%;">Fundación ser y desarrollo</div>`)[0];
+            popup_51a347a233d1c2725b4596eef81d294d.setContent(html_c013663f10c01773b0b5e48198cdb853);
+        
+
+        marker_efdb2e87915b5d2750c2a0097222edfd.bindPopup(popup_51a347a233d1c2725b4596eef81d294d)
+        ;
+
+        
+    
+    
+            var marker_86c9c7416d677eaa40b78d9108594686 = L.marker(
+                [3.883717, -77.02401],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_e1389620e8d2a97f3a0c45fe3160e4f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54947a5f7fdbcefb940051f368e8d60f = $(`<div id="html_54947a5f7fdbcefb940051f368e8d60f" style="width: 100.0%; height: 100.0%;">Corporaciòn club de lectura Mariposas de amor</div>`)[0];
+            popup_e1389620e8d2a97f3a0c45fe3160e4f3.setContent(html_54947a5f7fdbcefb940051f368e8d60f);
+        
+
+        marker_86c9c7416d677eaa40b78d9108594686.bindPopup(popup_e1389620e8d2a97f3a0c45fe3160e4f3)
+        ;
+
+        
+    
+    
+            var marker_623c957e15e356eb641b840ea1e27334 = L.marker(
+                [10.353053, -75.428794],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_61de28c08835d76118473ea1a4b0fd21 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3b0167757f0208c4bc434aa45cefaf5e = $(`<div id="html_3b0167757f0208c4bc434aa45cefaf5e" style="width: 100.0%; height: 100.0%;">FUNDACIÓN JARDIN BOTÁNICO GUILLERMO PIÑERES</div>`)[0];
+            popup_61de28c08835d76118473ea1a4b0fd21.setContent(html_3b0167757f0208c4bc434aa45cefaf5e);
+        
+
+        marker_623c957e15e356eb641b840ea1e27334.bindPopup(popup_61de28c08835d76118473ea1a4b0fd21)
+        ;
+
+        
+    
+    
+            var marker_1338e41c60c73dcad3543b2a89bff4aa = L.marker(
+                [4.271826, -74.41785],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_16b48b397d766044fbf9e808056fac72 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_673d05d45c7552ad5faf57ea7e6dddc4 = $(`<div id="html_673d05d45c7552ad5faf57ea7e6dddc4" style="width: 100.0%; height: 100.0%;">Centro de investigación para el desarrollo Sustentable Cindesus</div>`)[0];
+            popup_16b48b397d766044fbf9e808056fac72.setContent(html_673d05d45c7552ad5faf57ea7e6dddc4);
+        
+
+        marker_1338e41c60c73dcad3543b2a89bff4aa.bindPopup(popup_16b48b397d766044fbf9e808056fac72)
+        ;
+
+        
+    
+    
+            var marker_8ab853082fc2ec5dcd347fa6fa332fe3 = L.marker(
+                [2.586327, -76.552896],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_d3859a1531906790fb72917f1928af6a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1fa1a3da368bbeb0a5c3a250465a6e1a = $(`<div id="html_1fa1a3da368bbeb0a5c3a250465a6e1a" style="width: 100.0%; height: 100.0%;">PazCafe SAS</div>`)[0];
+            popup_d3859a1531906790fb72917f1928af6a.setContent(html_1fa1a3da368bbeb0a5c3a250465a6e1a);
+        
+
+        marker_8ab853082fc2ec5dcd347fa6fa332fe3.bindPopup(popup_d3859a1531906790fb72917f1928af6a)
+        ;
+
+        
+    
+    
+            var marker_254a278bebacacc7ca3ff51d8426991e = L.marker(
+                [6.54766, -73.040674],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_ffdd2b36c8080a237302767e17b7d6e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c08669324a7ab38d746022dd2b5432f = $(`<div id="html_4c08669324a7ab38d746022dd2b5432f" style="width: 100.0%; height: 100.0%;">THE CRANKY HUMMINGBIRD S.A.S. BIC</div>`)[0];
+            popup_ffdd2b36c8080a237302767e17b7d6e7.setContent(html_4c08669324a7ab38d746022dd2b5432f);
+        
+
+        marker_254a278bebacacc7ca3ff51d8426991e.bindPopup(popup_ffdd2b36c8080a237302767e17b7d6e7)
+        ;
+
+        
+    
+    
+            var marker_0a2cc87885014fd5d94906f761e59fa8 = L.marker(
+                [3.679292, -76.310855],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_a12fe95213d8a5ce67394bc882e56841 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f3c74c854659381aa9be2acd3c63f91 = $(`<div id="html_8f3c74c854659381aa9be2acd3c63f91" style="width: 100.0%; height: 100.0%;">Soluciones de abastecimiento oriental</div>`)[0];
+            popup_a12fe95213d8a5ce67394bc882e56841.setContent(html_8f3c74c854659381aa9be2acd3c63f91);
+        
+
+        marker_0a2cc87885014fd5d94906f761e59fa8.bindPopup(popup_a12fe95213d8a5ce67394bc882e56841)
+        ;
+
+        
+    
+    
+            var marker_2807c43d333203a99ff0ab05baa820e2 = L.marker(
+                [11.014186, -74.810752],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_6b9040f86b8d49316c59fd510ea631bb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_503a151af89c5b4077b8065bbb03b7f6 = $(`<div id="html_503a151af89c5b4077b8065bbb03b7f6" style="width: 100.0%; height: 100.0%;">Fundación De Pana Que Sí</div>`)[0];
+            popup_6b9040f86b8d49316c59fd510ea631bb.setContent(html_503a151af89c5b4077b8065bbb03b7f6);
+        
+
+        marker_2807c43d333203a99ff0ab05baa820e2.bindPopup(popup_6b9040f86b8d49316c59fd510ea631bb)
+        ;
+
+        
+    
+    
+            var marker_1e5f1ca3caeec5019c8d468d25409679 = L.marker(
+                [6.228397, -77.400348],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_390c05a82ccfacb113a2e2cbf9ddb96f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_56c9a6f9461f1cc9fb06b9bef0299d66 = $(`<div id="html_56c9a6f9461f1cc9fb06b9bef0299d66" style="width: 100.0%; height: 100.0%;">Asociación de segundo grado red de frio Bahia Solano</div>`)[0];
+            popup_390c05a82ccfacb113a2e2cbf9ddb96f.setContent(html_56c9a6f9461f1cc9fb06b9bef0299d66);
+        
+
+        marker_1e5f1ca3caeec5019c8d468d25409679.bindPopup(popup_390c05a82ccfacb113a2e2cbf9ddb96f)
+        ;
+
+        
+    
+    
+            var marker_ee2d45cf0828433c02bba436b7e86acd = L.marker(
+                [1.607491, -77.131152],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_45dd107b72c09bd8719cd8d0a5fbb068 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f658b251bfe2a07a0a49e4ddc5c1065 = $(`<div id="html_3f658b251bfe2a07a0a49e4ddc5c1065" style="width: 100.0%; height: 100.0%;">COOPERATIVA MULTIACTIVA DE CAFETEROS DE NARIÑO</div>`)[0];
+            popup_45dd107b72c09bd8719cd8d0a5fbb068.setContent(html_3f658b251bfe2a07a0a49e4ddc5c1065);
+        
+
+        marker_ee2d45cf0828433c02bba436b7e86acd.bindPopup(popup_45dd107b72c09bd8719cd8d0a5fbb068)
+        ;
+
+        
+    
+    
+            var marker_8b8c95294ab484aa87718cbf2740e6d1 = L.marker(
+                [10.3872922, -75.458874],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_40baf2475b88eb720138db940e94b694 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_57ce7c85a5c48179f33c1f2bb2b489b2 = $(`<div id="html_57ce7c85a5c48179f33c1f2bb2b489b2" style="width: 100.0%; height: 100.0%;">FUNDACIÓN BIOPSICOSOCIAL JESUCRISTO REBAÑO DE PAZ</div>`)[0];
+            popup_40baf2475b88eb720138db940e94b694.setContent(html_57ce7c85a5c48179f33c1f2bb2b489b2);
+        
+
+        marker_8b8c95294ab484aa87718cbf2740e6d1.bindPopup(popup_40baf2475b88eb720138db940e94b694)
+        ;
+
+        
+    
+    
+            var marker_eec16057d7893e931416dd0944fdee68 = L.marker(
+                [10.3759388, -75.4653054],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_b33c9c5b122324e5883ff9579fa676d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe75abe2e65ce5b7200799fcf83270d7 = $(`<div id="html_fe75abe2e65ce5b7200799fcf83270d7" style="width: 100.0%; height: 100.0%;">FUNDACIÓN UN NUEVO COMIENZO - FUNCO</div>`)[0];
+            popup_b33c9c5b122324e5883ff9579fa676d6.setContent(html_fe75abe2e65ce5b7200799fcf83270d7);
+        
+
+        marker_eec16057d7893e931416dd0944fdee68.bindPopup(popup_b33c9c5b122324e5883ff9579fa676d6)
+        ;
+
+        
+    
+    
+            var marker_cbee06eb2faa9958f336d54ddb7031e3 = L.marker(
+                [6.34461, -72.818361],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_76e3b518ab0428858faa70dc30efa364 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed0958a7565a60292868ee69d486707d = $(`<div id="html_ed0958a7565a60292868ee69d486707d" style="width: 100.0%; height: 100.0%;">FUNDACION HOGAR DE BIENESTAR Y DEL CENTRO VIDA LUIS RONCANCIO ONZAGA</div>`)[0];
+            popup_76e3b518ab0428858faa70dc30efa364.setContent(html_ed0958a7565a60292868ee69d486707d);
+        
+
+        marker_cbee06eb2faa9958f336d54ddb7031e3.bindPopup(popup_76e3b518ab0428858faa70dc30efa364)
+        ;
+
+        
+    
+    
+            var marker_71b8c4fa964546787aa9aff4534d5baf = L.marker(
+                [11.24026, -73.703667],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_a27891ffe534dfffdd17910dafb23fd1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd8eed6580815f73f986fd1c996b9a74 = $(`<div id="html_fd8eed6580815f73f986fd1c996b9a74" style="width: 100.0%; height: 100.0%;">asociacion grupo exaserradores snsm</div>`)[0];
+            popup_a27891ffe534dfffdd17910dafb23fd1.setContent(html_fd8eed6580815f73f986fd1c996b9a74);
+        
+
+        marker_71b8c4fa964546787aa9aff4534d5baf.bindPopup(popup_a27891ffe534dfffdd17910dafb23fd1)
+        ;
+
+        
+    
+    
+            var marker_5617f62a54963e27d7899c507ef19d43 = L.marker(
+                [5.544281, -73.357263],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_e9f16f04b893a8354f54b6159a2b6d98 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e54a35da3af2a348704767f01362985b = $(`<div id="html_e54a35da3af2a348704767f01362985b" style="width: 100.0%; height: 100.0%;">ECA CRECIENDO JUNTOS</div>`)[0];
+            popup_e9f16f04b893a8354f54b6159a2b6d98.setContent(html_e54a35da3af2a348704767f01362985b);
+        
+
+        marker_5617f62a54963e27d7899c507ef19d43.bindPopup(popup_e9f16f04b893a8354f54b6159a2b6d98)
+        ;
+
+        
+    
+    
+            var marker_1b9ca63ab4e1bce1a38ef5bf2dd0f03a = L.marker(
+                [3.390093, -76.561854],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_9ed404f777a4a6123dd3d46876cdc255 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3eec3c1a50afbe3b5638da8125f9beb2 = $(`<div id="html_3eec3c1a50afbe3b5638da8125f9beb2" style="width: 100.0%; height: 100.0%;">Fundación Pan vivo</div>`)[0];
+            popup_9ed404f777a4a6123dd3d46876cdc255.setContent(html_3eec3c1a50afbe3b5638da8125f9beb2);
+        
+
+        marker_1b9ca63ab4e1bce1a38ef5bf2dd0f03a.bindPopup(popup_9ed404f777a4a6123dd3d46876cdc255)
+        ;
+
+        
+    
+    
+            var marker_23154f51bb4f01b7c29e31cb3ba661dd = L.marker(
+                [7.369785, -72.980659],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_5f2b25b7c685b4d04f36c85c595e327d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_73ea74459e75018f170a43199ba2172b = $(`<div id="html_73ea74459e75018f170a43199ba2172b" style="width: 100.0%; height: 100.0%;">APICOLA SANTA INES SAS - BIC</div>`)[0];
+            popup_5f2b25b7c685b4d04f36c85c595e327d.setContent(html_73ea74459e75018f170a43199ba2172b);
+        
+
+        marker_23154f51bb4f01b7c29e31cb3ba661dd.bindPopup(popup_5f2b25b7c685b4d04f36c85c595e327d)
+        ;
+
+        
+    
+    
+            var marker_8546061469b384f207184bd609d9feba = L.marker(
+                [5.757559, -72.992741],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_86ef262e022d7c430027a7d2cc70aeb8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7fde9a4b9b9a3c185aa8b94cbcdb77af = $(`<div id="html_7fde9a4b9b9a3c185aa8b94cbcdb77af" style="width: 100.0%; height: 100.0%;">ASOCIACIÓN AGROPECUARIA DE PRODUCTORES Y COMERCIALIZADORES DEL DEPARTAMENTO DE BOYACA. "AGRONIT"</div>`)[0];
+            popup_86ef262e022d7c430027a7d2cc70aeb8.setContent(html_7fde9a4b9b9a3c185aa8b94cbcdb77af);
+        
+
+        marker_8546061469b384f207184bd609d9feba.bindPopup(popup_86ef262e022d7c430027a7d2cc70aeb8)
+        ;
+
+        
+    
+    
+            var marker_44c63419df758d29d697551dd0b8ced9 = L.marker(
+                [3.454461, -76.56662],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_eaced7908c74ba7fa27359c8294756a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_624c77e6029cf5dcc4c4701aecbfda91 = $(`<div id="html_624c77e6029cf5dcc4c4701aecbfda91" style="width: 100.0%; height: 100.0%;">CONALDEM ( corporacion nacional para las mujeres virtuosas)</div>`)[0];
+            popup_eaced7908c74ba7fa27359c8294756a6.setContent(html_624c77e6029cf5dcc4c4701aecbfda91);
+        
+
+        marker_44c63419df758d29d697551dd0b8ced9.bindPopup(popup_eaced7908c74ba7fa27359c8294756a6)
+        ;
+
+        
+    
+    
+            var marker_a70b9766d111ccd1f37c035398c32841 = L.marker(
+                [5.036457, -75.491401],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_f084579d52e9753d0e03e410e231c421 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_095e239b0c438681f066099c8ca4cd2d = $(`<div id="html_095e239b0c438681f066099c8ca4cd2d" style="width: 100.0%; height: 100.0%;">MANO VERDE SAS BIC</div>`)[0];
+            popup_f084579d52e9753d0e03e410e231c421.setContent(html_095e239b0c438681f066099c8ca4cd2d);
+        
+
+        marker_a70b9766d111ccd1f37c035398c32841.bindPopup(popup_f084579d52e9753d0e03e410e231c421)
+        ;
+
+        
+    
+    
+            var marker_29c3b39b7866815f7406509fa1d0ee44 = L.marker(
+                [7.892391, -72.500619],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_9e09a5c0a141baf35b4a8da75eb7aa54 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23d4824526e57dd9b73d42aa9d810bdf = $(`<div id="html_23d4824526e57dd9b73d42aa9d810bdf" style="width: 100.0%; height: 100.0%;">CORPORACION CONSTRUYENDO PODER, DEMOCRACIA Y PAZ</div>`)[0];
+            popup_9e09a5c0a141baf35b4a8da75eb7aa54.setContent(html_23d4824526e57dd9b73d42aa9d810bdf);
+        
+
+        marker_29c3b39b7866815f7406509fa1d0ee44.bindPopup(popup_9e09a5c0a141baf35b4a8da75eb7aa54)
+        ;
+
+        
+    
+    
+            var marker_41878f7fe680beba40d7d7b37f5e2cd8 = L.marker(
+                [4.414945, -74.388103],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_44620ab7b916f0e73b1efc92e96911e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f9b56e695d90981e8e6d0d4a13d81bf = $(`<div id="html_7f9b56e695d90981e8e6d0d4a13d81bf" style="width: 100.0%; height: 100.0%;">Mamá Jaguara</div>`)[0];
+            popup_44620ab7b916f0e73b1efc92e96911e1.setContent(html_7f9b56e695d90981e8e6d0d4a13d81bf);
+        
+
+        marker_41878f7fe680beba40d7d7b37f5e2cd8.bindPopup(popup_44620ab7b916f0e73b1efc92e96911e1)
+        ;
+
+        
+    
+    
+            var marker_426b460bfb109bd3bfbba0d3b74112e1 = L.marker(
+                [8.425876669, -76.78593901],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_6d98bdc20da01c4427f54da60ccbdbd8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f68de6340df3c39445027efb69758f81 = $(`<div id="html_f68de6340df3c39445027efb69758f81" style="width: 100.0%; height: 100.0%;">ENLACES DARIEN S.A.S.</div>`)[0];
+            popup_6d98bdc20da01c4427f54da60ccbdbd8.setContent(html_f68de6340df3c39445027efb69758f81);
+        
+
+        marker_426b460bfb109bd3bfbba0d3b74112e1.bindPopup(popup_6d98bdc20da01c4427f54da60ccbdbd8)
+        ;
+
+        
+    
+    
+            var marker_9b6c47491f5707d245b931bb39d7b88f = L.marker(
+                [2.197372, -75.6285],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_a5e4c83ce3b03766e9ccd07594695132 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_52f4ffb81d150dc7caf72fb16c382a26 = $(`<div id="html_52f4ffb81d150dc7caf72fb16c382a26" style="width: 100.0%; height: 100.0%;">ASOCIACION CULTURAL Y AMBIENTALISTA DEL SUR</div>`)[0];
+            popup_a5e4c83ce3b03766e9ccd07594695132.setContent(html_52f4ffb81d150dc7caf72fb16c382a26);
+        
+
+        marker_9b6c47491f5707d245b931bb39d7b88f.bindPopup(popup_a5e4c83ce3b03766e9ccd07594695132)
+        ;
+
+        
+    
+    
+            var marker_2fa198d8fac977204a9328e9fdb20b20 = L.marker(
+                [10.997618, -74.790222],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_c2e76b8ba14d93dfc63c39342f2cac56 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6540a21ac46692cd14f0d4580c027ecd = $(`<div id="html_6540a21ac46692cd14f0d4580c027ecd" style="width: 100.0%; height: 100.0%;">Ecoexplora Consultoría S.A.S BIC</div>`)[0];
+            popup_c2e76b8ba14d93dfc63c39342f2cac56.setContent(html_6540a21ac46692cd14f0d4580c027ecd);
+        
+
+        marker_2fa198d8fac977204a9328e9fdb20b20.bindPopup(popup_c2e76b8ba14d93dfc63c39342f2cac56)
+        ;
+
+        
+    
+    
+            var marker_da7747ed1a9e30abd787942a5c4f680d = L.marker(
+                [5.036522, -75.491402],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_58c06247bd6a6c0ea9891317791124a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5db3dec1f43ecbca352d8764f40b2d43 = $(`<div id="html_5db3dec1f43ecbca352d8764f40b2d43" style="width: 100.0%; height: 100.0%;">NEUROBICA GYM</div>`)[0];
+            popup_58c06247bd6a6c0ea9891317791124a7.setContent(html_5db3dec1f43ecbca352d8764f40b2d43);
+        
+
+        marker_da7747ed1a9e30abd787942a5c4f680d.bindPopup(popup_58c06247bd6a6c0ea9891317791124a7)
+        ;
+
+        
+    
+    
+            var marker_648f42a8269724cee467c8b3ef4a607b = L.marker(
+                [10.14352184, -75.68279269],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_22f4ee5803aade81176b8a8054c23a27 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da5bf2bba4ecd77914e18ec35f60d44d = $(`<div id="html_da5bf2bba4ecd77914e18ec35f60d44d" style="width: 100.0%; height: 100.0%;">CORPORACIÓN REAL STAR</div>`)[0];
+            popup_22f4ee5803aade81176b8a8054c23a27.setContent(html_da5bf2bba4ecd77914e18ec35f60d44d);
+        
+
+        marker_648f42a8269724cee467c8b3ef4a607b.bindPopup(popup_22f4ee5803aade81176b8a8054c23a27)
+        ;
+
+        
+    
+    
+            var marker_42c7089e5e215bbe0791866d0867d396 = L.marker(
+                [7.88847, -72.499963],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_0d6bb35e7d6d32c998819a35d769e5d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_532667cbbc89ac40302a75209bfef1ef = $(`<div id="html_532667cbbc89ac40302a75209bfef1ef" style="width: 100.0%; height: 100.0%;">FUNDACION PARA LA PARTICIPACION COMUNITARIA PARCOMUN</div>`)[0];
+            popup_0d6bb35e7d6d32c998819a35d769e5d4.setContent(html_532667cbbc89ac40302a75209bfef1ef);
+        
+
+        marker_42c7089e5e215bbe0791866d0867d396.bindPopup(popup_0d6bb35e7d6d32c998819a35d769e5d4)
+        ;
+
+        
+    
+    
+            var marker_ed12fee57a29290a5b093eab56474c6a = L.marker(
+                [5.036442, -75.491422],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_d7237d0903585e242eca286a1f3ea8b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c97c200249e09c7327fc503e9555a218 = $(`<div id="html_c97c200249e09c7327fc503e9555a218" style="width: 100.0%; height: 100.0%;">URIBERG INGENIERIA SAS</div>`)[0];
+            popup_d7237d0903585e242eca286a1f3ea8b3.setContent(html_c97c200249e09c7327fc503e9555a218);
+        
+
+        marker_ed12fee57a29290a5b093eab56474c6a.bindPopup(popup_d7237d0903585e242eca286a1f3ea8b3)
+        ;
+
+        
+    
+    
+            var marker_04f9988517ce5bbbc2a0676872e78b8a = L.marker(
+                [5.036491, -75.491388],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_832b0385e6efcfb89fbecf4165549102 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_794008582278ac46d6348b83800b548a = $(`<div id="html_794008582278ac46d6348b83800b548a" style="width: 100.0%; height: 100.0%;">CORPORACIÓN DE LA SAGRADA FAMILIA</div>`)[0];
+            popup_832b0385e6efcfb89fbecf4165549102.setContent(html_794008582278ac46d6348b83800b548a);
+        
+
+        marker_04f9988517ce5bbbc2a0676872e78b8a.bindPopup(popup_832b0385e6efcfb89fbecf4165549102)
+        ;
+
+        
+    
+    
+            var marker_360466332dc28d387095a9708f6a029c = L.marker(
+                [5.03645, -75.491389],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_a517acd0430d8f756e3a2ff5c96fedb9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b1b670af26d92e1218db4357d1320d12 = $(`<div id="html_b1b670af26d92e1218db4357d1320d12" style="width: 100.0%; height: 100.0%;">FUNDACIÓN OBRAS SOCIALES BETANIA</div>`)[0];
+            popup_a517acd0430d8f756e3a2ff5c96fedb9.setContent(html_b1b670af26d92e1218db4357d1320d12);
+        
+
+        marker_360466332dc28d387095a9708f6a029c.bindPopup(popup_a517acd0430d8f756e3a2ff5c96fedb9)
+        ;
+
+        
+    
+    
+            var marker_78719e2456133ce7a6a9f0c4bcc3aae4 = L.marker(
+                [1.622503315, -75.60982327],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_21e69361dbb4d1a9458488a1089422e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e9fc3d87e48f02f3a4318c48262783d = $(`<div id="html_3e9fc3d87e48f02f3a4318c48262783d" style="width: 100.0%; height: 100.0%;">Fundación Proyecto Maguare</div>`)[0];
+            popup_21e69361dbb4d1a9458488a1089422e7.setContent(html_3e9fc3d87e48f02f3a4318c48262783d);
+        
+
+        marker_78719e2456133ce7a6a9f0c4bcc3aae4.bindPopup(popup_21e69361dbb4d1a9458488a1089422e7)
+        ;
+
+        
+    
+    
+            var marker_f76c0522abcdcf7406092c3de957cc56 = L.marker(
+                [1.623453163, -75.63206633],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_91cff21b97a3c616945d6a19fc3a7da1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2561db64685b2ec0e60953dcaa14f1c8 = $(`<div id="html_2561db64685b2ec0e60953dcaa14f1c8" style="width: 100.0%; height: 100.0%;">Fundación INCULDE</div>`)[0];
+            popup_91cff21b97a3c616945d6a19fc3a7da1.setContent(html_2561db64685b2ec0e60953dcaa14f1c8);
+        
+
+        marker_f76c0522abcdcf7406092c3de957cc56.bindPopup(popup_91cff21b97a3c616945d6a19fc3a7da1)
+        ;
+
+        
+    
+    
+            var marker_1c74f43a501e834b03ea6c1875a55efb = L.marker(
+                [11.002867, -74.791054],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_b6ae915e1946b08f513801ad2ca11e63 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c66bd7b9ee810574d896135a261e22e8 = $(`<div id="html_c66bd7b9ee810574d896135a261e22e8" style="width: 100.0%; height: 100.0%;">De La Voz Lab SAS</div>`)[0];
+            popup_b6ae915e1946b08f513801ad2ca11e63.setContent(html_c66bd7b9ee810574d896135a261e22e8);
+        
+
+        marker_1c74f43a501e834b03ea6c1875a55efb.bindPopup(popup_b6ae915e1946b08f513801ad2ca11e63)
+        ;
+
+        
+    
+    
+            var marker_a55ee122a5878d23f7732351db001062 = L.marker(
+                [4.432639, -75.221594],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_3df53bffe333dbee457e5d0f2319dc6a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5d1a30353a4fea30dbb4cd8ab3837b6f = $(`<div id="html_5d1a30353a4fea30dbb4cd8ab3837b6f" style="width: 100.0%; height: 100.0%;">Corporación SOS Ambiental</div>`)[0];
+            popup_3df53bffe333dbee457e5d0f2319dc6a.setContent(html_5d1a30353a4fea30dbb4cd8ab3837b6f);
+        
+
+        marker_a55ee122a5878d23f7732351db001062.bindPopup(popup_3df53bffe333dbee457e5d0f2319dc6a)
+        ;
+
+        
+    
+    
+            var marker_82b7b35a57c560ed2ff5fe5773009778 = L.marker(
+                [5.547716, -73.388721],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_034887577de940848f543a9086faf3c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9296acb5896927bedded7819279478f = $(`<div id="html_f9296acb5896927bedded7819279478f" style="width: 100.0%; height: 100.0%;">Organización cooperativa Lactea y Agroindustrial de Boyacá COOPSUMERCÉ</div>`)[0];
+            popup_034887577de940848f543a9086faf3c8.setContent(html_f9296acb5896927bedded7819279478f);
+        
+
+        marker_82b7b35a57c560ed2ff5fe5773009778.bindPopup(popup_034887577de940848f543a9086faf3c8)
+        ;
+
+        
+    
+    
+            var marker_316ab1857ec3b08a5cb4b715fdcf0929 = L.marker(
+                [10.98736, -74.821396],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_80ad6afc283b280446ac7d712e7f36b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3823efa081277ffbbf51588cd9be62b3 = $(`<div id="html_3823efa081277ffbbf51588cd9be62b3" style="width: 100.0%; height: 100.0%;">Fundación Doulos</div>`)[0];
+            popup_80ad6afc283b280446ac7d712e7f36b1.setContent(html_3823efa081277ffbbf51588cd9be62b3);
+        
+
+        marker_316ab1857ec3b08a5cb4b715fdcf0929.bindPopup(popup_80ad6afc283b280446ac7d712e7f36b1)
+        ;
+
+        
+    
+    
+            var marker_f2bfbfeb5209d5566366ac199635cf2b = L.marker(
+                [4.150566, -73.638156],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_df09775a8e99d2b9fcf06e41ce06ba55 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_28a421f4f47ab05535dd40b7e454e454 = $(`<div id="html_28a421f4f47ab05535dd40b7e454e454" style="width: 100.0%; height: 100.0%;">Liga contra el Cancer Seccional Meta</div>`)[0];
+            popup_df09775a8e99d2b9fcf06e41ce06ba55.setContent(html_28a421f4f47ab05535dd40b7e454e454);
+        
+
+        marker_f2bfbfeb5209d5566366ac199635cf2b.bindPopup(popup_df09775a8e99d2b9fcf06e41ce06ba55)
+        ;
+
+        
+    
+    
+            var marker_a074279b8b6c6ed378670cb2db0a2b74 = L.marker(
+                [1.627594, -75.6155559],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_c57f5519704e2f013490f7860d10cec3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_99953288e8cd311e17e787510cf65607 = $(`<div id="html_99953288e8cd311e17e787510cf65607" style="width: 100.0%; height: 100.0%;">FUNERARIA PARA MASCOTAS DEJANDO HUELLAS SAS BIC</div>`)[0];
+            popup_c57f5519704e2f013490f7860d10cec3.setContent(html_99953288e8cd311e17e787510cf65607);
+        
+
+        marker_a074279b8b6c6ed378670cb2db0a2b74.bindPopup(popup_c57f5519704e2f013490f7860d10cec3)
+        ;
+
+        
+    
+    
+            var marker_82df4e074fb917e634ad5ab3f48e0300 = L.marker(
+                [1.032436634, -76.61917895],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_aa8707db73a3ed272759e1ee3847e7c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_392d220d06ac84e5a8e0bb95e7fdd4ac = $(`<div id="html_392d220d06ac84e5a8e0bb95e7fdd4ac" style="width: 100.0%; height: 100.0%;">CONDIMENTOS PUTUMAYO INC SAS ZOMAC BIC</div>`)[0];
+            popup_aa8707db73a3ed272759e1ee3847e7c2.setContent(html_392d220d06ac84e5a8e0bb95e7fdd4ac);
+        
+
+        marker_82df4e074fb917e634ad5ab3f48e0300.bindPopup(popup_aa8707db73a3ed272759e1ee3847e7c2)
+        ;
+
+        
+    
+    
+            var marker_b5ae8bef65967274d99610e0bc0c76c9 = L.marker(
+                [10.38705223, -75.47363442],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_a722751b99fdc7cb5cdf2d32c728013a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_565b72b347aa3a656b34b5c1ac76cec4 = $(`<div id="html_565b72b347aa3a656b34b5c1ac76cec4" style="width: 100.0%; height: 100.0%;">CORPORACIÓN CARIBE AFIRMATIVO</div>`)[0];
+            popup_a722751b99fdc7cb5cdf2d32c728013a.setContent(html_565b72b347aa3a656b34b5c1ac76cec4);
+        
+
+        marker_b5ae8bef65967274d99610e0bc0c76c9.bindPopup(popup_a722751b99fdc7cb5cdf2d32c728013a)
+        ;
+
+        
+    
+    
+            var marker_f71a767904fe1e24ac0d34b2f902f2f5 = L.marker(
+                [8.662138212, -75.89104696],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_2d8b46ffed40c4efc99a3f4a3be6b921 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3db1fbdeadf60d283d46864eab79f08 = $(`<div id="html_f3db1fbdeadf60d283d46864eab79f08" style="width: 100.0%; height: 100.0%;">DELLA ROSA SAS BIC</div>`)[0];
+            popup_2d8b46ffed40c4efc99a3f4a3be6b921.setContent(html_f3db1fbdeadf60d283d46864eab79f08);
+        
+
+        marker_f71a767904fe1e24ac0d34b2f902f2f5.bindPopup(popup_2d8b46ffed40c4efc99a3f4a3be6b921)
+        ;
+
+        
+    
+    
+            var marker_78cc8a4163548247277b8797fcdafd0a = L.marker(
+                [10.41087019, -75.5180238],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_ea293122a79621efe3f54eeeb89933de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_24aa1f98844b0efac493ba3426ea9d51 = $(`<div id="html_24aa1f98844b0efac493ba3426ea9d51" style="width: 100.0%; height: 100.0%;">FUNDACIÓN JULIE</div>`)[0];
+            popup_ea293122a79621efe3f54eeeb89933de.setContent(html_24aa1f98844b0efac493ba3426ea9d51);
+        
+
+        marker_78cc8a4163548247277b8797fcdafd0a.bindPopup(popup_ea293122a79621efe3f54eeeb89933de)
+        ;
+
+        
+    
+    
+            var marker_e84078386811db037b1a50a58d88cad6 = L.marker(
+                [5.716472, -72.939542],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_e770eb6a9d2a8d942b5d767a729fc00e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_90303ae3391ca12f640ef675867a621e = $(`<div id="html_90303ae3391ca12f640ef675867a621e" style="width: 100.0%; height: 100.0%;">Fundación Medio Ambiente y Proyectos Sostenibles FUNMAPROS</div>`)[0];
+            popup_e770eb6a9d2a8d942b5d767a729fc00e.setContent(html_90303ae3391ca12f640ef675867a621e);
+        
+
+        marker_e84078386811db037b1a50a58d88cad6.bindPopup(popup_e770eb6a9d2a8d942b5d767a729fc00e)
+        ;
+
+        
+    
+    
+            var marker_9970d5e75fc9b63fb7c94842b46505ac = L.marker(
+                [4.150702, -73.641836],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_6ce94e9241eec51504beb275980a3627 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2642cb0ddae62a6d0eddb474b7032859 = $(`<div id="html_2642cb0ddae62a6d0eddb474b7032859" style="width: 100.0%; height: 100.0%;">choko met sas</div>`)[0];
+            popup_6ce94e9241eec51504beb275980a3627.setContent(html_2642cb0ddae62a6d0eddb474b7032859);
+        
+
+        marker_9970d5e75fc9b63fb7c94842b46505ac.bindPopup(popup_6ce94e9241eec51504beb275980a3627)
+        ;
+
+        
+    
+    
+            var marker_8fe04897e3a3e80d5064aa3c3affe5b8 = L.marker(
+                [0.694149772, -76.86673132],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_bbd2d93803ee4b3c375a93e89af126be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ac1880a5032e59b9a289cdc3515a378 = $(`<div id="html_0ac1880a5032e59b9a289cdc3515a378" style="width: 100.0%; height: 100.0%;">La Ruta del Chocolate</div>`)[0];
+            popup_bbd2d93803ee4b3c375a93e89af126be.setContent(html_0ac1880a5032e59b9a289cdc3515a378);
+        
+
+        marker_8fe04897e3a3e80d5064aa3c3affe5b8.bindPopup(popup_bbd2d93803ee4b3c375a93e89af126be)
+        ;
+
+        
+    
+    
+            var marker_266402ccd340136527223c6fca5911cd = L.marker(
+                [5.036486, -75.491453],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_5ce27ea9f95c0cef3af37288bdb11345 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9614ba66cdcffd8f99f84c41e716260a = $(`<div id="html_9614ba66cdcffd8f99f84c41e716260a" style="width: 100.0%; height: 100.0%;">FUNDACIÓN PODEROSAS COLOMBIA</div>`)[0];
+            popup_5ce27ea9f95c0cef3af37288bdb11345.setContent(html_9614ba66cdcffd8f99f84c41e716260a);
+        
+
+        marker_266402ccd340136527223c6fca5911cd.bindPopup(popup_5ce27ea9f95c0cef3af37288bdb11345)
+        ;
+
+        
+    
+    
+            var marker_1e7f96b0a7a38b22f4dafb3adcd900e6 = L.marker(
+                [8.734381424, -75.84537184],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_4969f89eabf36487faa608a10898ea8e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eabe92b718bbeb747360aed58906f2ed = $(`<div id="html_eabe92b718bbeb747360aed58906f2ed" style="width: 100.0%; height: 100.0%;">Corporación Alianza 2030 para el Progreso</div>`)[0];
+            popup_4969f89eabf36487faa608a10898ea8e.setContent(html_eabe92b718bbeb747360aed58906f2ed);
+        
+
+        marker_1e7f96b0a7a38b22f4dafb3adcd900e6.bindPopup(popup_4969f89eabf36487faa608a10898ea8e)
+        ;
+
+        
+    
+    
+            var marker_e3d959552c7169b2598f00c7870a9c20 = L.marker(
+                [11.54058, -72.896526],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_77fdb25d23b190ef078cedb4548a3d01 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3032ba5704c71e7e48a29ec1d860afb1 = $(`<div id="html_3032ba5704c71e7e48a29ec1d860afb1" style="width: 100.0%; height: 100.0%;">FUNDACIÓN CADENA COLOMBIA</div>`)[0];
+            popup_77fdb25d23b190ef078cedb4548a3d01.setContent(html_3032ba5704c71e7e48a29ec1d860afb1);
+        
+
+        marker_e3d959552c7169b2598f00c7870a9c20.bindPopup(popup_77fdb25d23b190ef078cedb4548a3d01)
+        ;
+
+        
+    
+    
+            var marker_21293ec82d0a2d5d69143e6aa7f0ac0b = L.marker(
+                [7.003429, -76.03312],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_2ab19d603967600243ee80a1c25d0fcf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d76c7d6a8fb8e98d8fc2a636bbf8ab2 = $(`<div id="html_3d76c7d6a8fb8e98d8fc2a636bbf8ab2" style="width: 100.0%; height: 100.0%;">Anidar Tecnología y Consultoría SAS BIC - Cere</div>`)[0];
+            popup_2ab19d603967600243ee80a1c25d0fcf.setContent(html_3d76c7d6a8fb8e98d8fc2a636bbf8ab2);
+        
+
+        marker_21293ec82d0a2d5d69143e6aa7f0ac0b.bindPopup(popup_2ab19d603967600243ee80a1c25d0fcf)
+        ;
+
+        
+    
+    
+            var marker_0b96db0ba425ad4b74a58274791bee0b = L.marker(
+                [0.538766653, -76.525367],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_5a9a252edbd7c8670a5770dda3540380 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_854676f63301935fd6a1ca0664edb453 = $(`<div id="html_854676f63301935fd6a1ca0664edb453" style="width: 100.0%; height: 100.0%;">Asociación de productores y comercializadores NATURAMA</div>`)[0];
+            popup_5a9a252edbd7c8670a5770dda3540380.setContent(html_854676f63301935fd6a1ca0664edb453);
+        
+
+        marker_0b96db0ba425ad4b74a58274791bee0b.bindPopup(popup_5a9a252edbd7c8670a5770dda3540380)
+        ;
+
+        
+    
+    
+            var marker_d2bae027a397f41fdaeee6bff5940af0 = L.marker(
+                [5.036532, -75.491445],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_c057cf23e33c7e90a45a3ce10671892b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae7efbac16bef079f0d3a707941b967e = $(`<div id="html_ae7efbac16bef079f0d3a707941b967e" style="width: 100.0%; height: 100.0%;">CAMPO Y VIDA</div>`)[0];
+            popup_c057cf23e33c7e90a45a3ce10671892b.setContent(html_ae7efbac16bef079f0d3a707941b967e);
+        
+
+        marker_d2bae027a397f41fdaeee6bff5940af0.bindPopup(popup_c057cf23e33c7e90a45a3ce10671892b)
+        ;
+
+        
+    
+    
+            var marker_8f5d8eda8a52c5efb2f8a784f3de6bce = L.marker(
+                [1.155388114, -76.88461957],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_aea6f5462b44e98ee73bdbcdf2cf4d1a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0827133b9bda5dcb25b6a7f80ac0f6f5 = $(`<div id="html_0827133b9bda5dcb25b6a7f80ac0f6f5" style="width: 100.0%; height: 100.0%;">Asociación Agro San Isidro</div>`)[0];
+            popup_aea6f5462b44e98ee73bdbcdf2cf4d1a.setContent(html_0827133b9bda5dcb25b6a7f80ac0f6f5);
+        
+
+        marker_8f5d8eda8a52c5efb2f8a784f3de6bce.bindPopup(popup_aea6f5462b44e98ee73bdbcdf2cf4d1a)
+        ;
+
+        
+    
+    
+            var marker_13e5cc160817804dc81bfd527f86495f = L.marker(
+                [4.514895, -74.164866],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_336061f624f39353c484ba4acf97d3d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18f038652ba5b22b49939d02f00a2501 = $(`<div id="html_18f038652ba5b22b49939d02f00a2501" style="width: 100.0%; height: 100.0%;">Fundación Biblioseo</div>`)[0];
+            popup_336061f624f39353c484ba4acf97d3d6.setContent(html_18f038652ba5b22b49939d02f00a2501);
+        
+
+        marker_13e5cc160817804dc81bfd527f86495f.bindPopup(popup_336061f624f39353c484ba4acf97d3d6)
+        ;
+
+        
+    
+    
+            var marker_c203e7dd26b9d6d6f4bc612482f9c7e3 = L.marker(
+                [4.619086, -74.110388],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_61329d52f38a90b0743760ded63ee756 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc773a24e9d8d665f223b06d3f77a614 = $(`<div id="html_bc773a24e9d8d665f223b06d3f77a614" style="width: 100.0%; height: 100.0%;">Paramo Snacks SAS</div>`)[0];
+            popup_61329d52f38a90b0743760ded63ee756.setContent(html_bc773a24e9d8d665f223b06d3f77a614);
+        
+
+        marker_c203e7dd26b9d6d6f4bc612482f9c7e3.bindPopup(popup_61329d52f38a90b0743760ded63ee756)
+        ;
+
+        
+    
+    
+            var marker_e620c4ddba54c4a55cb73bbb5e123a45 = L.marker(
+                [3.465732, -76.522831],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_2eac21455e04398c8bb72722aabf7824 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_589b867d1a1058f063df410ac63eed0a = $(`<div id="html_589b867d1a1058f063df410ac63eed0a" style="width: 100.0%; height: 100.0%;">Fundación FEDEPRAN</div>`)[0];
+            popup_2eac21455e04398c8bb72722aabf7824.setContent(html_589b867d1a1058f063df410ac63eed0a);
+        
+
+        marker_e620c4ddba54c4a55cb73bbb5e123a45.bindPopup(popup_2eac21455e04398c8bb72722aabf7824)
+        ;
+
+        
+    
+    
+            var marker_fcb21e1dddd20f1f2ed437ad2859a801 = L.marker(
+                [7.742085, -73.049641],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_e2e9b835f8e9447c7fd0818e5ef3c5b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2e993b5062561af66c78b793c6a15e00 = $(`<div id="html_2e993b5062561af66c78b793c6a15e00" style="width: 100.0%; height: 100.0%;">ASOCIACION DE MOREROS DE LA CARRERA CACHIRA NORTE DE SANTANDER</div>`)[0];
+            popup_e2e9b835f8e9447c7fd0818e5ef3c5b3.setContent(html_2e993b5062561af66c78b793c6a15e00);
+        
+
+        marker_fcb21e1dddd20f1f2ed437ad2859a801.bindPopup(popup_e2e9b835f8e9447c7fd0818e5ef3c5b3)
+        ;
+
+        
+    
+    
+            var marker_5e37257fd744b233cf60d770dde367df = L.marker(
+                [10.79642777, -74.92791276],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_65e1cc5d10d1f495f0fb29e423eeda06 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee4192f2d3824a891df5fb3cb05f2ee9 = $(`<div id="html_ee4192f2d3824a891df5fb3cb05f2ee9" style="width: 100.0%; height: 100.0%;">ASOCIACION DE PEQUEÑOS AGRICULTORES VICTIMAS DEL CONFLICTO ARMADO</div>`)[0];
+            popup_65e1cc5d10d1f495f0fb29e423eeda06.setContent(html_ee4192f2d3824a891df5fb3cb05f2ee9);
+        
+
+        marker_5e37257fd744b233cf60d770dde367df.bindPopup(popup_65e1cc5d10d1f495f0fb29e423eeda06)
+        ;
+
+        
+    
+    
+            var marker_929e718d7e64837648bc221f3e730aaa = L.marker(
+                [5.036592, -75.491411],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_9bac0e81e14b66f14aad8207ecb5beba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55ff1665aeb742ffc987e9968f45887f = $(`<div id="html_55ff1665aeb742ffc987e9968f45887f" style="width: 100.0%; height: 100.0%;">ASOFRISP</div>`)[0];
+            popup_9bac0e81e14b66f14aad8207ecb5beba.setContent(html_55ff1665aeb742ffc987e9968f45887f);
+        
+
+        marker_929e718d7e64837648bc221f3e730aaa.bindPopup(popup_9bac0e81e14b66f14aad8207ecb5beba)
+        ;
+
+        
+    
+    
+            var marker_9d03c7056a4d8d1ef6c6bfc501b4859d = L.marker(
+                [11.527154, -72.908775],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_e6a40d32f9f020cfdc438f8ff4438a62 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a4d01d1d19ddc32a715031c58182c25 = $(`<div id="html_4a4d01d1d19ddc32a715031c58182c25" style="width: 100.0%; height: 100.0%;">TAROA TOURS</div>`)[0];
+            popup_e6a40d32f9f020cfdc438f8ff4438a62.setContent(html_4a4d01d1d19ddc32a715031c58182c25);
+        
+
+        marker_9d03c7056a4d8d1ef6c6bfc501b4859d.bindPopup(popup_e6a40d32f9f020cfdc438f8ff4438a62)
+        ;
+
+        
+    
+    
+            var marker_b50c325b0b93196d3f77fee1f1ad90be = L.marker(
+                [6.23053911, -75.56762099],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_d402f2a6a7d87903d597cbb145ac2d78 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba1d6d8cc3c3af5e0492fddde6d5a71c = $(`<div id="html_ba1d6d8cc3c3af5e0492fddde6d5a71c" style="width: 100.0%; height: 100.0%;">FUNIMOS FUNDACIÓN TERRITORIAL</div>`)[0];
+            popup_d402f2a6a7d87903d597cbb145ac2d78.setContent(html_ba1d6d8cc3c3af5e0492fddde6d5a71c);
+        
+
+        marker_b50c325b0b93196d3f77fee1f1ad90be.bindPopup(popup_d402f2a6a7d87903d597cbb145ac2d78)
+        ;
+
+        
+    
+    
+            var marker_bf464bfa1bfbad59f1c28258f97d2b2e = L.marker(
+                [4.950651, -75.661277],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_38d21c9d4be792d01820484bd4d8055a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b7e2f54d6a2d2c31f4e473ef25d18ad = $(`<div id="html_8b7e2f54d6a2d2c31f4e473ef25d18ad" style="width: 100.0%; height: 100.0%;">Najil Cab Foundation</div>`)[0];
+            popup_38d21c9d4be792d01820484bd4d8055a.setContent(html_8b7e2f54d6a2d2c31f4e473ef25d18ad);
+        
+
+        marker_bf464bfa1bfbad59f1c28258f97d2b2e.bindPopup(popup_38d21c9d4be792d01820484bd4d8055a)
+        ;
+
+        
+    
+    
+            var marker_5940eadf34623f54cffc3d6280cb5bf6 = L.marker(
+                [2.943622, -75.256214],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_3477f9b75ad5d5e65fc773479f1aa7c3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e8903e2f87da2e8fbd1b7bde89481a19 = $(`<div id="html_e8903e2f87da2e8fbd1b7bde89481a19" style="width: 100.0%; height: 100.0%;">UMUKA</div>`)[0];
+            popup_3477f9b75ad5d5e65fc773479f1aa7c3.setContent(html_e8903e2f87da2e8fbd1b7bde89481a19);
+        
+
+        marker_5940eadf34623f54cffc3d6280cb5bf6.bindPopup(popup_3477f9b75ad5d5e65fc773479f1aa7c3)
+        ;
+
+        
+    
+    
+            var marker_eaf3ca6aaf204e0413045a52f6dca20b = L.marker(
+                [5.689351305, -76.65898325],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_85805e3d09a224f53c6c7bcdeff6812c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d531adeb1cb047cbf1c55090f172a4d9 = $(`<div id="html_d531adeb1cb047cbf1c55090f172a4d9" style="width: 100.0%; height: 100.0%;">FUNDACION RECREARNOS</div>`)[0];
+            popup_85805e3d09a224f53c6c7bcdeff6812c.setContent(html_d531adeb1cb047cbf1c55090f172a4d9);
+        
+
+        marker_eaf3ca6aaf204e0413045a52f6dca20b.bindPopup(popup_85805e3d09a224f53c6c7bcdeff6812c)
+        ;
+
+        
+    
+    
+            var marker_929c759d9100a95b28de218d66e11911 = L.marker(
+                [8.15444721, -75.42719956],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_7cb6d3242847b3c5f5e3fd5ce57875ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b709300d0dd877c1234db3fba6f5ce0 = $(`<div id="html_9b709300d0dd877c1234db3fba6f5ce0" style="width: 100.0%; height: 100.0%;">ARTESANOS DE POLONIA</div>`)[0];
+            popup_7cb6d3242847b3c5f5e3fd5ce57875ca.setContent(html_9b709300d0dd877c1234db3fba6f5ce0);
+        
+
+        marker_929c759d9100a95b28de218d66e11911.bindPopup(popup_7cb6d3242847b3c5f5e3fd5ce57875ca)
+        ;
+
+        
+    
+    
+            var marker_fa8b4dbcf6b133654e0b5eccf620b610 = L.marker(
+                [6.245948, -75.565091],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_c88b9a62e5bac1468bb5eadf850d27ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f0bff6b29598bb9007662c270f42fef4 = $(`<div id="html_f0bff6b29598bb9007662c270f42fef4" style="width: 100.0%; height: 100.0%;">Corporación Común y Corriente</div>`)[0];
+            popup_c88b9a62e5bac1468bb5eadf850d27ff.setContent(html_f0bff6b29598bb9007662c270f42fef4);
+        
+
+        marker_fa8b4dbcf6b133654e0b5eccf620b610.bindPopup(popup_c88b9a62e5bac1468bb5eadf850d27ff)
+        ;
+
+        
+    
+    
+            var marker_d0f0fe6633a499050b34b9e401efb05a = L.marker(
+                [1.203109331, -76.89575716],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_3eeba9ba17e83d12d9d1a0a43fd3c99c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_309fc4ef9362d87243ef62510d87852e = $(`<div id="html_309fc4ef9362d87243ef62510d87852e" style="width: 100.0%; height: 100.0%;">Asociación de Apicultores del Pie de Monte Amazonico APIAMAZON</div>`)[0];
+            popup_3eeba9ba17e83d12d9d1a0a43fd3c99c.setContent(html_309fc4ef9362d87243ef62510d87852e);
+        
+
+        marker_d0f0fe6633a499050b34b9e401efb05a.bindPopup(popup_3eeba9ba17e83d12d9d1a0a43fd3c99c)
+        ;
+
+        
+    
+    
+            var marker_e86f5945e1568f1857781f7b7839ea2c = L.marker(
+                [3.452524, -76.531544],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_18dd3bb57039007f6051dd9b49f95b76 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e614aaddd364ce919572101343a5e058 = $(`<div id="html_e614aaddd364ce919572101343a5e058" style="width: 100.0%; height: 100.0%;">La Gran Pimienta</div>`)[0];
+            popup_18dd3bb57039007f6051dd9b49f95b76.setContent(html_e614aaddd364ce919572101343a5e058);
+        
+
+        marker_e86f5945e1568f1857781f7b7839ea2c.bindPopup(popup_18dd3bb57039007f6051dd9b49f95b76)
+        ;
+
+        
+    
+    
+            var marker_c2fd064ce58e76047358eee541aa218a = L.marker(
+                [4.757160378, -74.02656399],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_7e39cc11964ba4af5a0f0c4686305a0f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_32fd2506372f082cd81fd2ca323baafb = $(`<div id="html_32fd2506372f082cd81fd2ca323baafb" style="width: 100.0%; height: 100.0%;">Critertec Educación S.A.S.</div>`)[0];
+            popup_7e39cc11964ba4af5a0f0c4686305a0f.setContent(html_32fd2506372f082cd81fd2ca323baafb);
+        
+
+        marker_c2fd064ce58e76047358eee541aa218a.bindPopup(popup_7e39cc11964ba4af5a0f0c4686305a0f)
+        ;
+
+        
+    
+    
+            var marker_56bd14e99e596de654a1b07ea11bc02d = L.marker(
+                [6.460376307, -72.4982078],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_dc53002cc1bc00c0aa3a0ca9a8f074dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a716b905b9f772e47239a6c924b7d40 = $(`<div id="html_7a716b905b9f772e47239a6c924b7d40" style="width: 100.0%; height: 100.0%;">GINGER BLONDE SAS</div>`)[0];
+            popup_dc53002cc1bc00c0aa3a0ca9a8f074dd.setContent(html_7a716b905b9f772e47239a6c924b7d40);
+        
+
+        marker_56bd14e99e596de654a1b07ea11bc02d.bindPopup(popup_dc53002cc1bc00c0aa3a0ca9a8f074dd)
+        ;
+
+        
+    
+    
+            var marker_153c36d2e592d5ebc6c708d642090bdf = L.marker(
+                [10.98555862, -74.80095086],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_71e952423d2cd88f6eb8264c4bcfaf04 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd8a80d31c3e8dc9cd569e40c4f1aec5 = $(`<div id="html_bd8a80d31c3e8dc9cd569e40c4f1aec5" style="width: 100.0%; height: 100.0%;">FUNDACION ATLANTICO MAS VERDE</div>`)[0];
+            popup_71e952423d2cd88f6eb8264c4bcfaf04.setContent(html_bd8a80d31c3e8dc9cd569e40c4f1aec5);
+        
+
+        marker_153c36d2e592d5ebc6c708d642090bdf.bindPopup(popup_71e952423d2cd88f6eb8264c4bcfaf04)
+        ;
+
+        
+    
+    
+            var marker_313c209246f3dc1cce31948cc04ecd68 = L.marker(
+                [4.690204, -74.066259],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_c6e769203c69d11073d2291844a2edc8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3940bd68abc44ef4ed4d4723169869bd = $(`<div id="html_3940bd68abc44ef4ed4d4723169869bd" style="width: 100.0%; height: 100.0%;">AMAZONIKO</div>`)[0];
+            popup_c6e769203c69d11073d2291844a2edc8.setContent(html_3940bd68abc44ef4ed4d4723169869bd);
+        
+
+        marker_313c209246f3dc1cce31948cc04ecd68.bindPopup(popup_c6e769203c69d11073d2291844a2edc8)
+        ;
+
+        
+    
+    
+            var marker_86f52eb0c688ac55c04970b254e2c6d0 = L.marker(
+                [4.628735, -74.086374],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_e70bb061120514441c9c99f441167f82 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0638439191e9a8d5a22dd3163e130809 = $(`<div id="html_0638439191e9a8d5a22dd3163e130809" style="width: 100.0%; height: 100.0%;">Propulsor Latinoamérica SAS</div>`)[0];
+            popup_e70bb061120514441c9c99f441167f82.setContent(html_0638439191e9a8d5a22dd3163e130809);
+        
+
+        marker_86f52eb0c688ac55c04970b254e2c6d0.bindPopup(popup_e70bb061120514441c9c99f441167f82)
+        ;
+
+        
+    
+    
+            var marker_5c7a9b8590423e04ee1e851cad2d94fb = L.marker(
+                [7.205332, -72.756625],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_9c6b9629e0366aaaaf52d1ad95bc975b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef0beb67335a1f7efcdafd82a7377420 = $(`<div id="html_ef0beb67335a1f7efcdafd82a7377420" style="width: 100.0%; height: 100.0%;">Asociación de mujeres el futuro es hoy</div>`)[0];
+            popup_9c6b9629e0366aaaaf52d1ad95bc975b.setContent(html_ef0beb67335a1f7efcdafd82a7377420);
+        
+
+        marker_5c7a9b8590423e04ee1e851cad2d94fb.bindPopup(popup_9c6b9629e0366aaaaf52d1ad95bc975b)
+        ;
+
+        
+    
+    
+            var marker_eff38b83ac3a93c3670d532760f1f4fd = L.marker(
+                [4.681466, -74.048019],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_db77cbf65a7ee74dfa7b2aa193ede796 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92687b862bad1ced2720451a27a49d7d = $(`<div id="html_92687b862bad1ced2720451a27a49d7d" style="width: 100.0%; height: 100.0%;">COSCHOOL</div>`)[0];
+            popup_db77cbf65a7ee74dfa7b2aa193ede796.setContent(html_92687b862bad1ced2720451a27a49d7d);
+        
+
+        marker_eff38b83ac3a93c3670d532760f1f4fd.bindPopup(popup_db77cbf65a7ee74dfa7b2aa193ede796)
+        ;
+
+        
+    
+    
+            var marker_51e37d5c0a61afe461124120afc2699f = L.marker(
+                [3.88323, -77.067267],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_afeb01de05f7d20f207a55e84d3b7434 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb885dd096092e78edcbec84fd486bc1 = $(`<div id="html_cb885dd096092e78edcbec84fd486bc1" style="width: 100.0%; height: 100.0%;">Saborizante artesanal Cleo</div>`)[0];
+            popup_afeb01de05f7d20f207a55e84d3b7434.setContent(html_cb885dd096092e78edcbec84fd486bc1);
+        
+
+        marker_51e37d5c0a61afe461124120afc2699f.bindPopup(popup_afeb01de05f7d20f207a55e84d3b7434)
+        ;
+
+        
+    
+    
+            var marker_b5eecb49131f136eed1d7a5b7f3fed5f = L.marker(
+                [6.247943, -75.616887],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_e989d929b4d7d160baae02d49a69a032 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a8d019a5d40ea34c45b359b10126f8c0 = $(`<div id="html_a8d019a5d40ea34c45b359b10126f8c0" style="width: 100.0%; height: 100.0%;">Fundación A-kasa</div>`)[0];
+            popup_e989d929b4d7d160baae02d49a69a032.setContent(html_a8d019a5d40ea34c45b359b10126f8c0);
+        
+
+        marker_b5eecb49131f136eed1d7a5b7f3fed5f.bindPopup(popup_e989d929b4d7d160baae02d49a69a032)
+        ;
+
+        
+    
+    
+            var marker_75817e4ff48ddf9719e6d94ff7e20971 = L.marker(
+                [4.611994115, -74.06737031],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_e58e28c02b65ff62eaafbcfe6652fd44 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_846c88661d28d630011e2571a4750277 = $(`<div id="html_846c88661d28d630011e2571a4750277" style="width: 100.0%; height: 100.0%;">FUNDACIÓN ACCION CULTURAL POPULAR - ACPO</div>`)[0];
+            popup_e58e28c02b65ff62eaafbcfe6652fd44.setContent(html_846c88661d28d630011e2571a4750277);
+        
+
+        marker_75817e4ff48ddf9719e6d94ff7e20971.bindPopup(popup_e58e28c02b65ff62eaafbcfe6652fd44)
+        ;
+
+        
+    
+    
+            var marker_18de7ff5e271435d4c77130d55e739ca = L.marker(
+                [4.693342, -74.061784],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_91881bceede5466cc86584b7a603fa19 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_766496da67727dec668d86c5b373124d = $(`<div id="html_766496da67727dec668d86c5b373124d" style="width: 100.0%; height: 100.0%;">Feminario SAS</div>`)[0];
+            popup_91881bceede5466cc86584b7a603fa19.setContent(html_766496da67727dec668d86c5b373124d);
+        
+
+        marker_18de7ff5e271435d4c77130d55e739ca.bindPopup(popup_91881bceede5466cc86584b7a603fa19)
+        ;
+
+        
+    
+    
+            var marker_dcd19507c73633adbf61a42a7edab655 = L.marker(
+                [4.612655064, -74.15225707],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_b6224ae4afae2e2f49f005288f6a0c64 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17b31b54f0238e9fdebc257fc7c5d999 = $(`<div id="html_17b31b54f0238e9fdebc257fc7c5d999" style="width: 100.0%; height: 100.0%;">Corporación cumbres blancas colombia</div>`)[0];
+            popup_b6224ae4afae2e2f49f005288f6a0c64.setContent(html_17b31b54f0238e9fdebc257fc7c5d999);
+        
+
+        marker_dcd19507c73633adbf61a42a7edab655.bindPopup(popup_b6224ae4afae2e2f49f005288f6a0c64)
+        ;
+
+        
+    
+    
+            var marker_2164cc016e33d987626d1dc552270294 = L.marker(
+                [9.526246287, -75.58331721],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_1455244ab24babb61ef3c11c6339c676 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee84dad14a2664420c6b88dea4f4bc47 = $(`<div id="html_ee84dad14a2664420c6b88dea4f4bc47" style="width: 100.0%; height: 100.0%;">CORPORACIÓN FESTIVAL INTERNACIONAL DE CINE GOLFO DE MORROSQUILLO</div>`)[0];
+            popup_1455244ab24babb61ef3c11c6339c676.setContent(html_ee84dad14a2664420c6b88dea4f4bc47);
+        
+
+        marker_2164cc016e33d987626d1dc552270294.bindPopup(popup_1455244ab24babb61ef3c11c6339c676)
+        ;
+
+        
+    
+    
+            var marker_7bfad585f7485577df06f8c4b1de308f = L.marker(
+                [3.450543, -76.532011],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_2a77e9248e5edbc801069aa8e7922468 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_57e4d55e022ad4ca0459daaee020411d = $(`<div id="html_57e4d55e022ad4ca0459daaee020411d" style="width: 100.0%; height: 100.0%;">Enalzas</div>`)[0];
+            popup_2a77e9248e5edbc801069aa8e7922468.setContent(html_57e4d55e022ad4ca0459daaee020411d);
+        
+
+        marker_7bfad585f7485577df06f8c4b1de308f.bindPopup(popup_2a77e9248e5edbc801069aa8e7922468)
+        ;
+
+        
+    
+    
+            var marker_4c64ab3023c251700b96eb4b393f3077 = L.marker(
+                [1.751881056, -75.21701827],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_63ecc31b9cec440c7b216f0c577b8ec5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_12b23391f6476ac425711b5c0de5fee9 = $(`<div id="html_12b23391f6476ac425711b5c0de5fee9" style="width: 100.0%; height: 100.0%;">ASOCIACION DE REINCORPORADAS ASOCIADAS POR LA PAZ-CREA PAZ COLOMBIA</div>`)[0];
+            popup_63ecc31b9cec440c7b216f0c577b8ec5.setContent(html_12b23391f6476ac425711b5c0de5fee9);
+        
+
+        marker_4c64ab3023c251700b96eb4b393f3077.bindPopup(popup_63ecc31b9cec440c7b216f0c577b8ec5)
+        ;
+
+        
+    
+    
+            var marker_252f8d70091afb6b1cfb1b969afb7c69 = L.marker(
+                [4.609449, -75.777168],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_6a6388cad20a390e04f7a4dc3eff76a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_44d703eafde4146a74c638dcb325b1bf = $(`<div id="html_44d703eafde4146a74c638dcb325b1bf" style="width: 100.0%; height: 100.0%;">Corporación Mandala Quimbaya</div>`)[0];
+            popup_6a6388cad20a390e04f7a4dc3eff76a5.setContent(html_44d703eafde4146a74c638dcb325b1bf);
+        
+
+        marker_252f8d70091afb6b1cfb1b969afb7c69.bindPopup(popup_6a6388cad20a390e04f7a4dc3eff76a5)
+        ;
+
+        
+    
+    
+            var marker_67986163cdf7030a8d77582319604011 = L.marker(
+                [11.01472811, -74.23522096],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_76605fb6f8e22cf87cf66aee3268246d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ffb5c7b9763d1d586a0101ce87847d0c = $(`<div id="html_ffb5c7b9763d1d586a0101ce87847d0c" style="width: 100.0%; height: 100.0%;">Asociacion de mujeres campesinas, negras e indigenas del municipio de Ciénaga Magdalena ANMUCIC</div>`)[0];
+            popup_76605fb6f8e22cf87cf66aee3268246d.setContent(html_ffb5c7b9763d1d586a0101ce87847d0c);
+        
+
+        marker_67986163cdf7030a8d77582319604011.bindPopup(popup_76605fb6f8e22cf87cf66aee3268246d)
+        ;
+
+        
+    
+    
+            var marker_1e5a36bccd947c9ca3c2227bf55f0aa5 = L.marker(
+                [3.538433, -76.296711],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_350cf8e3752808ee369cc88911b88a94 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e781af3e1b73edc23514df7581f40d67 = $(`<div id="html_e781af3e1b73edc23514df7581f40d67" style="width: 100.0%; height: 100.0%;">Industria de Reciclaje y Aprovechamiento del Valle SAS</div>`)[0];
+            popup_350cf8e3752808ee369cc88911b88a94.setContent(html_e781af3e1b73edc23514df7581f40d67);
+        
+
+        marker_1e5a36bccd947c9ca3c2227bf55f0aa5.bindPopup(popup_350cf8e3752808ee369cc88911b88a94)
+        ;
+
+        
+    
+    
+            var marker_4adc31e56b62d947e493c8f2ebd36867 = L.marker(
+                [1.752391, -75.219978],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_3525e836a602f669ec61d3e5c3691d6b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bbb3a80016d8921060366db95e41a42b = $(`<div id="html_bbb3a80016d8921060366db95e41a42b" style="width: 100.0%; height: 100.0%;">CLUB DEPORTIVO DE RAFTING REMANDO POR LA PAZ</div>`)[0];
+            popup_3525e836a602f669ec61d3e5c3691d6b.setContent(html_bbb3a80016d8921060366db95e41a42b);
+        
+
+        marker_4adc31e56b62d947e493c8f2ebd36867.bindPopup(popup_3525e836a602f669ec61d3e5c3691d6b)
+        ;
+
+        
+    
+    
+            var marker_ef622e65db701c33b0445d61acab0cfc = L.marker(
+                [3.537695, -76.297227],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_39567553cc533981b08c12ad6cc4f620 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ddb37eece367a44e21a6320e0962d797 = $(`<div id="html_ddb37eece367a44e21a6320e0962d797" style="width: 100.0%; height: 100.0%;">Fundacion Enlazador de Mundos</div>`)[0];
+            popup_39567553cc533981b08c12ad6cc4f620.setContent(html_ddb37eece367a44e21a6320e0962d797);
+        
+
+        marker_ef622e65db701c33b0445d61acab0cfc.bindPopup(popup_39567553cc533981b08c12ad6cc4f620)
+        ;
+
+        
+    
+    
+            var marker_390ada5fe828c669e2f78f0b48cdee7a = L.marker(
+                [1.206146143, -77.27413319],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_99baf0628824a2a9f21bef08e91824d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f7eae275becedac7b9c5707143ec7ad = $(`<div id="html_5f7eae275becedac7b9c5707143ec7ad" style="width: 100.0%; height: 100.0%;">COOPERATIVA EMPRESARIAL DE RECICLADORES DE NARIÑO</div>`)[0];
+            popup_99baf0628824a2a9f21bef08e91824d4.setContent(html_5f7eae275becedac7b9c5707143ec7ad);
+        
+
+        marker_390ada5fe828c669e2f78f0b48cdee7a.bindPopup(popup_99baf0628824a2a9f21bef08e91824d4)
+        ;
+
+        
+    
+    
+            var marker_610ed78c9254873c1c4fd2ec93c44dc0 = L.marker(
+                [10.391381, -75.494641],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_b8fdb01a66f0b48ea43125a5e72e0e69 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_16a2752e6979b24327515a88b807cc5d = $(`<div id="html_16a2752e6979b24327515a88b807cc5d" style="width: 100.0%; height: 100.0%;">FUNDACIÓN PARA EL DESARROLLO SOCIAL, ECONÓMICO Y CULTURAL DE LA MUJER - FUNDEMUVAL (ESAL)</div>`)[0];
+            popup_b8fdb01a66f0b48ea43125a5e72e0e69.setContent(html_16a2752e6979b24327515a88b807cc5d);
+        
+
+        marker_610ed78c9254873c1c4fd2ec93c44dc0.bindPopup(popup_b8fdb01a66f0b48ea43125a5e72e0e69)
+        ;
+
+        
+    
+    
+            var marker_c18c6cc2b57c064313a729cf32abba3f = L.marker(
+                [3.698664, -73.698705],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_53b5ebdcc82b2094d8d6d89fdd877061 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c6c0d694cd4030d831e0c48c98c7593f = $(`<div id="html_c6c0d694cd4030d831e0c48c98c7593f" style="width: 100.0%; height: 100.0%;">choko met sas</div>`)[0];
+            popup_53b5ebdcc82b2094d8d6d89fdd877061.setContent(html_c6c0d694cd4030d831e0c48c98c7593f);
+        
+
+        marker_c18c6cc2b57c064313a729cf32abba3f.bindPopup(popup_53b5ebdcc82b2094d8d6d89fdd877061)
+        ;
+
+        
+    
+    
+            var marker_9166143c7e28d005388ff8eb8c0d51d2 = L.marker(
+                [6.248457, -75.566396],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_b006ceddd3797078946202b27a362aa2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1132f960543cd59ac1b4ef87a582907 = $(`<div id="html_c1132f960543cd59ac1b4ef87a582907" style="width: 100.0%; height: 100.0%;">Fundación Información-Visible</div>`)[0];
+            popup_b006ceddd3797078946202b27a362aa2.setContent(html_c1132f960543cd59ac1b4ef87a582907);
+        
+
+        marker_9166143c7e28d005388ff8eb8c0d51d2.bindPopup(popup_b006ceddd3797078946202b27a362aa2)
+        ;
+
+        
+    
+    
+            var marker_5ff7e8fb9b71b4675227b247ed016b14 = L.marker(
+                [10.994076, -74.824091],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_32e74ffe25ea0b818891f28ce6777e9b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ebf4b0d0840654f0b9c1ccab32645fa = $(`<div id="html_3ebf4b0d0840654f0b9c1ccab32645fa" style="width: 100.0%; height: 100.0%;">FUNDACION CAMALEON GALERIA</div>`)[0];
+            popup_32e74ffe25ea0b818891f28ce6777e9b.setContent(html_3ebf4b0d0840654f0b9c1ccab32645fa);
+        
+
+        marker_5ff7e8fb9b71b4675227b247ed016b14.bindPopup(popup_32e74ffe25ea0b818891f28ce6777e9b)
+        ;
+
+        
+    
+    
+            var marker_d09a7caead6f591d5967158154eb51cc = L.marker(
+                [3.447498, -76.534221],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_a7e919877a1e5feb9ffa58b79676339b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c0ad6f6a8a0edaa0619ff398c8d9d01c = $(`<div id="html_c0ad6f6a8a0edaa0619ff398c8d9d01c" style="width: 100.0%; height: 100.0%;">Grupo de Teatro Esquina Latina</div>`)[0];
+            popup_a7e919877a1e5feb9ffa58b79676339b.setContent(html_c0ad6f6a8a0edaa0619ff398c8d9d01c);
+        
+
+        marker_d09a7caead6f591d5967158154eb51cc.bindPopup(popup_a7e919877a1e5feb9ffa58b79676339b)
+        ;
+
+        
+    
+    
+            var marker_fb0ddfba96f775314eac6c172809380b = L.marker(
+                [1.201950623, -76.91908572],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_b5865d7cf4f1a8956d646ec6eda5f4b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_618cbf24d8af33794f9f8fcf92c17a90 = $(`<div id="html_618cbf24d8af33794f9f8fcf92c17a90" style="width: 100.0%; height: 100.0%;">ASOCIACION DE AGRICULTORES Y CULTIVADORES DE FRIJOL DEL MUNICIPIO DE SIBUNDOY</div>`)[0];
+            popup_b5865d7cf4f1a8956d646ec6eda5f4b3.setContent(html_618cbf24d8af33794f9f8fcf92c17a90);
+        
+
+        marker_fb0ddfba96f775314eac6c172809380b.bindPopup(popup_b5865d7cf4f1a8956d646ec6eda5f4b3)
+        ;
+
+        
+    
+    
+            var marker_2c122d1be8980067dfb9acf6a227a195 = L.marker(
+                [2.797995, -76.483437],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_68a1587b31031523013cd4966cee9443 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_12d3b611e3c61b1ae26b6654add994c6 = $(`<div id="html_12d3b611e3c61b1ae26b6654add994c6" style="width: 100.0%; height: 100.0%;">ASOCIACIÓN DE PADRES DE FAMILIA DE LA INSTITUCIÓN EDUCATIVA AGROINDUSTRIAL DE MONTERILLA - CALDONO</div>`)[0];
+            popup_68a1587b31031523013cd4966cee9443.setContent(html_12d3b611e3c61b1ae26b6654add994c6);
+        
+
+        marker_2c122d1be8980067dfb9acf6a227a195.bindPopup(popup_68a1587b31031523013cd4966cee9443)
+        ;
+
+        
+    
+    
+            var marker_5884b6bcf2d9678a9c19fdbbb8cb4cb1 = L.marker(
+                [1.568919, -75.326224],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_5a53be8f204b9cea1031d93b6f68d0e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce8819aec30e25e7ab4622e0f7a302c1 = $(`<div id="html_ce8819aec30e25e7ab4622e0f7a302c1" style="width: 100.0%; height: 100.0%;">Corporación de Productoras y Transformadoras de Cacao Amazónico - CHOCOAMAZONIC</div>`)[0];
+            popup_5a53be8f204b9cea1031d93b6f68d0e0.setContent(html_ce8819aec30e25e7ab4622e0f7a302c1);
+        
+
+        marker_5884b6bcf2d9678a9c19fdbbb8cb4cb1.bindPopup(popup_5a53be8f204b9cea1031d93b6f68d0e0)
+        ;
+
+        
+    
+    
+            var marker_f02e837f764b708c2037880803912bff = L.marker(
+                [1.570165, -75.327129],
+                {}
+            ).addTo(map_47381dbbca408ebeae4058e71df9c673);
+        
+    
+        var popup_2da02c743c5efe006596ad0218303451 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7bedfbca7934009868dc928e4bc35417 = $(`<div id="html_7bedfbca7934009868dc928e4bc35417" style="width: 100.0%; height: 100.0%;">ASOCIACION DE MUJERES EMPRENDEDORAS PALOMAS CAQUETÁ ASOMEPAC</div>`)[0];
+            popup_2da02c743c5efe006596ad0218303451.setContent(html_7bedfbca7934009868dc928e4bc35417);
+        
+
+        marker_f02e837f764b708c2037880803912bff.bindPopup(popup_2da02c743c5efe006596ad0218303451)
+        ;
+
+        
+    
+</script>
+</html>
